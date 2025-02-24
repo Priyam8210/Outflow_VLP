@@ -14,7 +14,7 @@
 - Uses standard fluid properties correlation for oil and gas properties calcuation.
 - Uses Newton-Raphson method to solve nonlinear equations to find gas compressiblity factor.
 - Implements Hagedorn and Brown correlation for multphase flow for find holdup values.
-- - Determines gas density or mixture density, gas or mixture viscosity, and pressure losses.
+- Determines gas density or mixture density, gas or mixture viscosity, and pressure losses.
 - Plots Tubing Intake Curve and Tubing Performance Curve.
 
 ## Inputs

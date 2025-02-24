@@ -1,7 +1,9 @@
 # Tubing Intake and Performance Curve Simulation
 
 ## Overview
-This Python script simulates the tubing intake and performance curves for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
+-The Python script for single_phase_flow simulates the tubing intake for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
+
+-The Python script for multiphase_tpr simulates the tubing intake curves for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
 
 ## libraries used
 - math
@@ -9,10 +11,10 @@ This Python script simulates the tubing intake and performance curves for gas we
 - Matplotlib
 
 ## Features
-- Computes tubing intake and performance curves for single phase gas and also for multiphase flow.
+- Computes tubing intake curve and tubing performance curves for single phase gas flow and also for multiphase flow.
 - Uses Newton-Raphson method to solve nonlinear equations to find gas compressiblity factor.
-- Determines gas density, viscosity, and pressure losses
-- Plots Tubing Intake Curve and Tubing Performance Curve
+- Determines gas density or mixture density, gas or mixture viscosity, and pressure losses.
+- Plots Tubing Intake Curve and Tubing Performance Curve.
 
 ## Inputs
 - Tubing diameter

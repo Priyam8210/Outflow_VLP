@@ -27,7 +27,7 @@
 - Some fluid properties for oil, gas and water.
 
 ## Calculation Methodology
-1. Iterates over different gas flow rates.
+1. Iterates for small change in depth.
 2. Computes different fluid properties for oil, gas and water.
 3. Computes gas compressibility factor using some corellation with implementation of newton raphson method.
 4. Computes holdup using Hagedorn and Brown correlation.

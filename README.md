@@ -1,9 +1,9 @@
 # Tubing Intake and Performance Curve Simulation
 
 ## Overview
--The Python script for single_phase_flow simulates the tubing intake for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
+- The Python script for single_phase_flow simulates the tubing intake for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
 
--The Python script for multiphase_tpr simulates the tubing intake curves for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
+- The Python script for multiphase_tic simulates the tubing intake curves for gas wells. The calculations involve pressure losses due to gravity, friction, and acceleration as gas flows through a wellbore.
 
 ## libraries used
 - math

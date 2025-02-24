@@ -11,26 +11,27 @@
 - Matplotlib
 
 ## Features
-- Computes tubing intake curve and tubing performance curves for single phase gas flow and also for multiphase flow.
+- Uses standard fluid properties correlation for oil and gas properties calcuation.
 - Uses Newton-Raphson method to solve nonlinear equations to find gas compressiblity factor.
-- Determines gas density or mixture density, gas or mixture viscosity, and pressure losses.
+- Implements Hagedorn and Brown correlation for multphase flow for find holdup values.
+- - Determines gas density or mixture density, gas or mixture viscosity, and pressure losses.
 - Plots Tubing Intake Curve and Tubing Performance Curve.
 
 ## Inputs
 - Tubing diameter
 - Pipe roughness
-- Wellhead pressure
-- Bottomhole pressure
 - Standard gas flow rate
-- Flowing bottom-hole temperature
-- Flowing top-hole temperature
 - Total well depth
+- Temperature and pressure profile
 - Inclination angle of wellbore
+- Some fluid properties for oil, gas and water.
 
 ## Calculation Methodology
 1. Iterates over different gas flow rates.
-2. Computes gas density,gas viscosity,  and velocity.
-3. 
-4. Computes pressure drop due to head loss, friction loss, and acceleration loss.
-5. Calculates pressure losses and updates pressure profile.
-6. Plots the tubing intake curve.
+2. Computes different fluid properties for oil, gas and water.
+3. Computes gas compressibility factor using some corellation with implementation of newton raphson method.
+4. Computes holdup using Hagedorn and Brown correlation.
+5. Computes different mixture properties.
+6. Computes pressure drop due to head loss, friction loss, and acceleration loss.
+7. Calculates pressure losses and updates pressure profile.
+8. Plots the tubing intake curve.
